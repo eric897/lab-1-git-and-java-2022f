@@ -30,4 +30,10 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test()
+    public void testshieric5() {
+        String expected = "Hi! My name is Eric! I like cats more than dogs! I like turtles";
+        String actual = IntroLab.shieric5();
+        assertEquals(expected, actual);
+    }
 }
